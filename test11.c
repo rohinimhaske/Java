@@ -9,7 +9,8 @@ int main()
     if(islower(alph))                                                           
       rev = toupper(alph);                                                      
     else                                                                        
-      rev = tolower(alph);                                                      
+      rev = tolower(alph);  
+	
     printf("Reverse case of %c is : %c\n", alph, rev);                        
                                                                                 
 }                                   
